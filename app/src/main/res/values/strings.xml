@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">一键清理  开源版</string>
+    <string name="app_name">清理大师</string>
     <string name="short_cut_name">一键加速</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -36,4 +36,6 @@
         由于时间仓促，错误与疏忽之处在所难免,\
         如果各位亲能给出宝贵的建议与指点,那将是极好的哦！么么哒！</string>
     <string name="all_rights_reserved">Copyright © 2012-2015 zaiyong. All Rights Reserved.</string>
+
+    <string name="main_activity_label">一款強大的垃圾清理工具</string>
 </resources>
