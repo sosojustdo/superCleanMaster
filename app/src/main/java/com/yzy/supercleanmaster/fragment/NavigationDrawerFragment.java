@@ -24,9 +24,7 @@ public class NavigationDrawerFragment extends BaseFragment {
     private boolean mFromSavedInstanceState;
     private NavigationDrawerCallbacks mCallbacks;
     final int radioIds[] = {
-            R.id.radio0,
-            R.id.radio1,
-            R.id.radio2
+            R.id.radio0
 
     };
     RadioButton radios[] = new RadioButton[radioIds.length];

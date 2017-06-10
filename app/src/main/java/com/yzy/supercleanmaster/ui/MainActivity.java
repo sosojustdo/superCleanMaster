@@ -21,7 +21,6 @@ import com.yzy.supercleanmaster.base.ActivityTack;
 import com.yzy.supercleanmaster.base.BaseActivity;
 import com.yzy.supercleanmaster.fragment.MainFragment;
 import com.yzy.supercleanmaster.fragment.NavigationDrawerFragment;
-import com.yzy.supercleanmaster.fragment.RelaxFragment;
 import com.yzy.supercleanmaster.fragment.SettingsFragment;
 import com.yzy.supercleanmaster.utils.SystemBarTintManager;
 import com.yzy.supercleanmaster.utils.T;
@@ -50,7 +49,6 @@ public class MainActivity extends BaseActivity implements NavigationDrawerFragme
     private View mFragmentContainerView;
 
     MainFragment mMainFragment;
-    RelaxFragment mRelaxFragment;
     public static final long TWO_SECOND = 2 * 1000;
     long preTime;
     @Override
@@ -197,12 +195,12 @@ public class MainActivity extends BaseActivity implements NavigationDrawerFragme
                 break;
             case 1:
                 closeDrawer();
-                if (mRelaxFragment == null) {
-                    mRelaxFragment = new RelaxFragment();
-                    transaction.add(R.id.container, mRelaxFragment);
-                } else {
-                    transaction.show(mRelaxFragment);
-                }
+//                if (mRelaxFragment == null) {
+//                    mRelaxFragment = new RelaxFragment();
+//                    transaction.add(R.id.container, mRelaxFragment);
+//                } else {
+//                    transaction.show(mRelaxFragment);
+//                }
                 transaction.commit();
 
                 break;
@@ -223,9 +221,9 @@ public class MainActivity extends BaseActivity implements NavigationDrawerFragme
         if (mMainFragment != null) {
             transaction.hide(mMainFragment);
         }
-        if (mRelaxFragment != null) {
-            transaction.hide(mRelaxFragment);
-        }
+//        if (mRelaxFragment != null) {
+//            transaction.hide(mRelaxFragment);
+//        }
 
     }
 
