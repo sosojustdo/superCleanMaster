@@ -5,7 +5,7 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "com.yzy.supercleanmaster"
+        applicationId "cn.studyjams.s2.sj0208.supercleanmaster"
         minSdkVersion 14
         targetSdkVersion 21
         versionCode 3
