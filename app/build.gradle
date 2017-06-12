@@ -30,6 +30,7 @@ dependencies {
     compile 'com.github.gabrielemariotti.changeloglib:library:1.5.2'
     compile 'com.hannesdorfmann.smoothprogressbar:library:1.0.0'
     compile 'com.github.castorflex.smoothprogressbar:library-circular:1.0.0'
+    compile 'com.google.firebase:firebase-core:9.6.1'
     compile project(':library')
     compile files('libs/nineoldandroids-2.4.0.jar')
     compile files('libs/umeng-update-v2.5.0.jar')
@@ -39,3 +40,6 @@ dependencies {
     compile files('libs/SocialSDK_laiwang_2.jar')
     compile files('libs/SocialSDK_QQZone_1.jar')
 }
+
+// ADD THIS AT THE BOTTOM
+apply plugin: 'com.google.gms.google-services'

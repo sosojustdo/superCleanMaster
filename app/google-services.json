@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "665809506344",
+    "firebase_url": "https://supercleanmaster-9e71b.firebaseio.com",
+    "project_id": "supercleanmaster-9e71b",
+    "storage_bucket": "supercleanmaster-9e71b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665809506344:android:fd67754d252917c8",
+        "android_client_info": {
+          "package_name": "cn.studyjams.s2.sj0208.supercleanmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665809506344-a618e09hbhr8ikvdbs1a9bo83mdr927q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cn.studyjams.s2.sj0208.supercleanmaster",
+            "certificate_hash": "5f35274fe58a370a86f5be56bd55d4c651fb985f"
+          }
+        },
+        {
+          "client_id": "665809506344-tgodqveq8fico4lu14k08u25elbol29j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7S-76kOD5TCMUtwp8NW6vKgU2Y4YMNnI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665809506344-tgodqveq8fico4lu14k08u25elbol29j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
